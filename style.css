@@ -1,0 +1,32 @@
+:root {
+  font-size: 50%;
+}
+
+html,
+body {
+  font-size: 1.6rem;
+}
+
+@media (min-width: 600px) {
+  :root {
+    font-size: 60%;
+  }
+}
+
+@media (min-width: 100px) {
+  :root {
+    font-size: 70%;
+  }
+}
+
+@media (min-width: 1200px) {
+  :root {
+    font-size: 80%;
+  }
+}
+
+@media (min-width: 1500px) {
+  :root {
+    font-size: 90%;
+  }
+}
